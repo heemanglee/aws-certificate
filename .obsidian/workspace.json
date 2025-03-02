@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "a0001f04cb8e5ba6",
+    "type": "split",
+    "children": [
+      {
+        "id": "b826dc38293c5ec1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95119c0635b08624",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "378c9de56e6c4054",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bca769f407205d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d2bdb7d41736f30",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "50a107cf2b7065df",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "421b3f052a5925ef",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1114a7ec5a803933",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a554ec1cebe283a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "403e71ab34c02537",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "README 의 백링크"
+            }
+          },
+          {
+            "id": "61dadee21a2bb8c8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "README 의 나가는 링크"
+            }
+          },
+          {
+            "id": "2cc32c9a9e09755d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "04ad9b135564ac2d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "README 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "6d2bdb7d41736f30",
+  "lastOpenFiles": [
+    "무제 1",
+    "무제"
+  ]
+}
