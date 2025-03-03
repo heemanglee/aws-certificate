@@ -349,3 +349,91 @@ AWS S3는 객체 단위로 데이터를 관리하는 객체 스토리지(Object 
 AWS EFS(Elastic File System)은 여러 EC2 인스턴스가 동시에 접근할 수 있는 공유 파일 시스템입니다. EFS는 리전 단위 서비스로서, 리전 내 여러 가용 영역(AZ)에 걸쳐 데이터를 자동으로 복제하여 저장합니다. 따라서 한 AZ에서 장애가 발생해도 다른 AZ에 저장되어 있는 복제본을 통해 데이터 접근이 가능하므로 내구성이 뛰어납니다. 또한, EFS는 완전 관리형 서비스로, 저장 공간이 부족하면 자동으로 확장됩니다.
 
 반면에 EBS(Elsatic Block Store)는 EC2 인스턴스와 동일한 가용 영역(AZ)에서만 사용할 수 있는 블록 스토리지입니다. 따라서 EBS와 다른 AZ에 존재하는 EC2 인스턴스는 EBS에 접근할 수 없습니다. 또한, EBS가 존재하는 가용 영역에 장애가 발생하면 EBS 볼륨도 사용할 수 없게 됩니다. EBS는 EFS와 달리 용량이 부족할 때 자동으로 확장하지 않기 때문에 사용자가 수동으로 크기를 확장해야 합니다.
+
+## 최소 권한 원칙 (Principle of Least Privilege)
+최소 권한 원칙이란 사용자(User), 그룹(Group), 서비스(Service) 등이 수행해야 하는 작업에 필요한 최소한의 권한만 부여하는 것을 의미합니다.
+
+최소 권한 원칙을 준수해야하는 이유는 보안을 위해서입니다.
+- 모든 권한이 부여된 루트 사용자(root user) 또는 과도한 권한을 가진 사용자가 해킹을 당할 수 있습니다.
+- 실수로 인한 데이터 손실 또는 중요한 설정 정보를 변경할 수 있습니다.
+이를 방지하기 위해서 AWS에서는 IAM 정책(Policy)을 사용하여 AWS의 특정 리소스에 대한 접근 권한을 세밀하게 제어할 수 있습니다.
+
+최소 권한 원칙을 준수하는 방법은 다음과 같습니다.
+- 루트 사용자를 사용하지 않고, 사용할 권한만 부여된 IAM 사용자 및 역할(Role)을 사용합니다.
+- IAM 정책을 통해 역할(Role)과 사용자(User)에게 필요한 권한만 부여합니다.
+
+## 정책(Policy)와 역할(Role)
+### 정책 (Policy)
+정책(Policy)은 AWS 리소스에 대한 접근 권한을 정의하는 JSON 문서입니다. 정책은 IAM 사용자(User), 그룹(Group) 그리고 역할(Role)에 부여되어 특정 AWS 서비스에 대한 접근을 허용(Allow)하거나 거부(Deny)할 수 있습니다.
+
+정책의 특징은 다음과 같습니다.
+- 정책은 JSON 형식으로 작성되며, “Effect” 필드를 사용하여 AWS 서비스의 접근 권한을 정의합니다.
+- 특정 AWS 서비스에 대한 읽기, 쓰기, 삭제 등 “Action”을 제어할 수 있습니다.
+아래의 경우 `my-secure-bucket` 이름의 S3 버킷에 존재하는 객체들을 읽을 수 있는 권한을 부여한 정책입니다.
+```bash
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::my-secure-bucket/*"
+    }
+  ]
+}
+```
+
+### 역할(Role)
+역할(Role)은 IAM 사용자(User) 또는 AWS 서비스가 특정 AWS 리소스에 접근할 수 있는 권한을 임시로 부여하는 방법입니다. 역할은 정책(Policy)를 통해 권한을 가지지만, IAM 사용자(User)에게 직접 할당되는 것이 아닌 `AssumeRole`을 통해 일시적으로 부여됩니다.
+
+역할(Role)의 특징은 다음과 같습니다.
+- IAM 사용자에게 직접 할당되는 것이 아닌, AssumeRole을 통해 부여됩니다.
+- AWS 서비스가 다른 AWS 리소스에 접근할 수 있도록 할 수 있습니다.
+- 임시 보안 자격 증명이므로, 만료 시간 이후에는 역할에 부여된 정책을 사용할 수 없습니다.
+
+## IAM Group
+AWS 계정 내에는 여러 IAM User가 존재할 수 있습니다. 각 User마다 개별적으로 정책(Policy)를 부여하여 AWS 리소스에 접근할 수 있도록 합니다. 동일한 정책이 여러 User에게 필요하다면 개별적으로 할당하는 것보단 IAM Group을 사용하여 효율적으로 정책을 부여할 수 있습니다. IAM Group에 정책을 부여하면 해당 Group에 속한 모든 User가 동일한 정책을 부여받게 됩니다. 
+
+IAM Group을 사용하면 여러 User에게 일관된 접근 제어를 유지할 수 있고, 새로운 User가 생성되더라도 Group에 추가하는 것만으로도 자동으로 동일한 정책을 부여받게 됩니다.
+
+## AWS Organizations
+```bash
+AWS Organizations
+│
+├── Management Account (ex: billing@example.com)
+│
+├── Organizational Unit (OU) - Development
+│   ├── Dev Account (dev@example.com)
+│   ├── QA Account (qa@example.com)
+│
+├── Organizational Unit (OU) - Production
+│   ├── Staging Account (staging@example.com)
+│   ├── Production Account (prod@example.com)
+│
+└── SCP 적용 가능 (ex: 특정 리전 사용 제한)
+```
+AWS Organizations는 여러 개의 AWS 계정을 중앙에서 통합 관리할 수 있는 서비스입니다. 특히, 보안, 결제, 정책 적용을 일괄적으로 관리할 수 있다는 점에서 중요한 서비스입니다.
+
+AWS Organizations는 개별 계정의 IAM을 직접적으로 관리하는 서비스가 아닙니다. 즉, A 계정에 생성된 IAM User, Group, 정책 등을 Organizations에서 직접 제어할 수 없습니다. 하지만 서비스 제어 정책(SCP, Service Control Policy)을 사용해서 조직 내의 모든 계정에 대한 정책을 강제 적용할 수 있습니다. 예를 들어, 조직에 3개의 계정(A, B, C)가 존재할 때, A 계정은 ap-northesat-2 리전을 사용하지 못하도록 제한할 수 있습니다. 
+
+또한, 각 계정의 비용이 개별적으로 청구되는 것보단, AWS Organizations의 통합 결제(Consolidated Billing) 기능을 통해 할인 혜택을 받을 수도 있습니다. 
+
+### OU (Organizational Unit)
+OU(Organizational Unit)는 AWS Organizations에서 여러 개의 AWS 계정을 그룹화하는 단위입니다. 즉, 비슷한 역할을 하는 계정들을 하나의 OU로 묶어서 관리할 수 있는 기능입니다.
+
+OU의 역할은 다음과 같습니다.
+- 계정 그룹화
+  - OU를 사용하면 역할에 따라 여러 계정을 하나의 그룹으로 묶어서 관리할 수 있습니다.
+  - 예를 들어, 개발과 관련된 `dev`, `staging`, `prod` 계정을 하나의 `Development OU`로 묶을 수 있습니다.
+- SCP 적용
+  - OU 단위로 보안 및 정책을 적용할 수 있습니다.
+  - 예를 들어, `Development OU`에 `ap-northeast-2` 리전 사용 제한 정책(SCP)을 적용하면, 해당 Ou에 속한 모든 계정(dev, staging, prod)에서 ap-northeast-2 리전을 사용할 수 없게 됩니다.
+  - SCP는 IAM 정책보다 상위 제한을 하기 때문에, IAM보다 우선 적용 됩니다.
+
+### AWS Organizations 사용 전
+- 개별 계정의 비용을 따로 확인해야 합니다.
+- 여러 계정이 중복으로 사용하는 정책을 일관적으로 적용할 수 없습니다.
+### AWS Organizations 사용 후
+- 중앙 집중식 관리를 통해 여러 계정을 하나의 관리 계정으로 통합 관리할 수 잇습니다.
+- 통합 결제(Consolidated Billing)로 비용 절감이 가능합니다.
+- 서비스 제어 정책(SCP)을 통해 여러 계정에 보안 정책을 일관적으로 적용할 수 있습니다.
