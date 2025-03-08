@@ -11,10 +11,14 @@
             "id": "bc4b3e64ca103461",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1_week/heejung/1주차 요약 💻.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "1주차 요약 💻"
             }
           }
         ]
@@ -162,7 +166,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc4b3e64ca103461",
+  "active": "6d2bdb7d41736f30",
   "lastOpenFiles": [
     "1_week/heejung/1주차 요약 💻.md",
     "1_week/heemang/cloud_computing_infrastructure_networking_storage_security.md",
