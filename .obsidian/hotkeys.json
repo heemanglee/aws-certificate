@@ -17,15 +17,6 @@
       "key": "Y"
     }
   ],
-  "highlightr-plugin:Grey": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "G"
-    }
-  ],
   "highlightr-plugin:unhighlight": [
     {
       "modifiers": [
@@ -33,6 +24,24 @@
         "Shift"
       ],
       "key": "R"
+    }
+  ],
+  "highlightr-plugin:Blue": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "highlightr-plugin:Green": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "G"
     }
   ]
 }
