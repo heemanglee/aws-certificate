@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c446be2d74bbb33d",
+            "id": "bc4b3e64ca103461",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,14 +162,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c446be2d74bbb33d",
+  "active": "bc4b3e64ca103461",
   "lastOpenFiles": [
-    "heejung/1주차 요약 💻.md",
-    "README.md",
+    "1_week/heejung/1주차 요약 💻.md",
     "1_week/heemang/cloud_computing_infrastructure_networking_storage_security.md",
+    "1_week/heejung",
+    "README.md",
     "1_week/heemang",
     "1_week",
-    "무제 1",
-    "heejung"
+    "무제 1"
   ]
 }
