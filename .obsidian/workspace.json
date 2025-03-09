@@ -53,12 +53,14 @@
             "id": "55cb812f85ea9b5c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2_week/heejung/photo/Pasted image 20250309174523.png"
+                "file": "2_week/heejung/module2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250309174523"
+              "icon": "lucide-file",
+              "title": "module2"
             }
           },
           {
@@ -216,19 +218,22 @@
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "6d2bdb7d41736f30",
+  "active": "55cb812f85ea9b5c",
   "lastOpenFiles": [
+    "2_week/heejung/module3.md",
+    "2_week/heejung/module4.md",
+    "2_week/heejung/module2.md",
+    "2_week/heejung/photo/Pasted image 20250310005442.png",
+    "2_week/heejung/photo/Pasted image 20250310011450.png",
+    "2_week/heejung/photo/Pasted image 20250309174523.png",
     "README.md",
     "2_week/heejung/photo/Pasted image 20250309163807.png",
-    "2_week/heejung/module4.md",
-    "2_week/heejung/photo/Pasted image 20250309174523.png",
     "2_week/heejung/photo/Pasted image 20250309174023.png",
     "2_week/heejung/photo/Pasted image 20250309171818.png",
-    "2_week/heejung/module3.md",
-    "2_week/heejung/module2.md",
     "2_week/heejung/photo/Pasted image 20250308205731.png",
     "2_week/heejung/photo",
     "2_week/heejung/photo/Pasted image 20250308211639.png",
