@@ -4,79 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "f9140796177bf70d",
+        "id": "e7db715f779e295e",
         "type": "tabs",
         "children": [
           {
-            "id": "bc4b3e64ca103461",
+            "id": "685eb1dfd6ac274c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_week/heejung/1주차 요약 💻.md",
+                "file": "2_week/heejung/module4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1주차 요약 💻"
+              "title": "module4"
             }
           },
           {
-            "id": "952a676478368cf8",
+            "id": "e00ccf223c9a417a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_week/heejung/module2.md",
+                "file": "2_week/heejung/module 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "module2"
-            }
-          },
-          {
-            "id": "c55af55107b58a4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2_week/heejung/module3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "module3"
-            }
-          },
-          {
-            "id": "55cb812f85ea9b5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2_week/heejung/module2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "module2"
-            }
-          },
-          {
-            "id": "bb6c522b799caf60",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "title": "module 5"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1114a7ec5a803933",
@@ -222,11 +183,14 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "55cb812f85ea9b5c",
+  "active": "e00ccf223c9a417a",
   "lastOpenFiles": [
-    "2_week/heejung/module3.md",
-    "2_week/heejung/module4.md",
     "2_week/heejung/module2.md",
+    "2_week/heejung/module 5.md",
+    "2_week/heejung/module4.md",
+    "2_week/heejung/module3.md",
+    "1_week/heejung/1주차 요약 💻.md",
+    "1_week/heemang/cloud_computing_infrastructure_networking_storage_security.md",
     "2_week/heejung/photo/Pasted image 20250310005442.png",
     "2_week/heejung/photo/Pasted image 20250310011450.png",
     "2_week/heejung/photo/Pasted image 20250309174523.png",
@@ -239,8 +203,6 @@
     "2_week/heejung/photo/Pasted image 20250308211639.png",
     "2_week/heejung/photo/Pasted image 20250308211611.png",
     "2_week/heejung",
-    "1_week/heejung/1주차 요약 💻.md",
-    "1_week/heemang/cloud_computing_infrastructure_networking_storage_security.md",
     "2_week",
     "1_week/heejung",
     "1_week/heemang",
