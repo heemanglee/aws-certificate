@@ -4,5 +4,6 @@
   "oz-image-plugin",
   "slash-commander",
   "markdown-table-editor",
-  "color-folders-files"
+  "color-folders-files",
+  "templater-obsidian"
 ]
