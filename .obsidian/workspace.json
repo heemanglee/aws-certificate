@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "module8.md",
+                "file": "2_week/heejung/module8.md",
                 "mode": "source",
                 "source": false
               },
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1114a7ec5a803933",
@@ -212,19 +211,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "30cffc36d3c720cf",
+  "active": "6d2bdb7d41736f30",
   "lastOpenFiles": [
-    "Pasted image 20250426153930.png",
-    "Pasted image 20250426153805.png",
-    "Pasted image 20250426151056.png",
-    "Pasted image 20250426150803.png",
-    "2_week/heejung/module7.md",
-    "module8.md",
-    "Pasted image 20250426144145.png",
-    "2_week/heejung/module6.md",
-    "2_week/heejung/photo/Pasted image 20250420153930.png",
     "2_week/heejung/module5.md",
     "2_week/heejung/module4.md",
+    "2_week/heejung/module3.md",
+    "2_week/heejung/module2.md",
+    "2_week/heejung/module8.md",
+    "heejung/Pasted image 20250426153930.png",
+    "heejung/Pasted image 20250426153805.png",
+    "heejung/Pasted image 20250426151056.png",
+    "heejung/Pasted image 20250426150803.png",
+    "2_week/heejung/module7.md",
+    "heejung/Pasted image 20250426144145.png",
+    "2_week/heejung/module6.md",
+    "2_week/heejung/photo/Pasted image 20250420153930.png",
     "2_week/heemang/aws-cloud-infrastructure-basics.md",
     "2_week/heemang",
     "heejung/module 5.md",
@@ -232,10 +233,7 @@
     "2_week/heejung/photo/Pasted image 20250309174023.png",
     "2_week/heejung/photo/Pasted image 20250308211611.png",
     "2_week/heejung/photo/Pasted image 20250309174523.png",
-    "2_week/heejung/photo/Pasted image 20250310005442.png",
     "2_week/heejung/photo",
-    "2_week/heejung/module3.md",
-    "2_week/heejung/module2.md",
     "2_week/heejung",
     "2_week",
     "heejung/module2.md",
