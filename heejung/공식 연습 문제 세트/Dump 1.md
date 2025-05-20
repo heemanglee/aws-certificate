@@ -11,7 +11,7 @@ layout:
     - C. AWS SDK.
 	    - Software Development Kit
 	    - 프로그래밍 언어로 AWS를 제어할 수 있는 라이브러리
-    - D. AWS Management Console.
+    - D. AWS Management Console. 🔴
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
@@ -118,7 +118,7 @@ layout:
 	    - 새로운 도메인 이름 등록하기
     - C. Building a new data center in the US and implementing(구현) a hybrid model.
 	    - 새로운 데이터센터 구축? 
-    - D. Deploying new Amazon EC2 instances in a Region located in the US.
+    - D. Deploying new Amazon EC2 instances in a Region located in the US. 🔴
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
