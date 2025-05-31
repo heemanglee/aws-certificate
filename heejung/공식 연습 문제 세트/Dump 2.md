@@ -132,7 +132,7 @@ layout: exam
       Correct answer: A
     </details>
 
-11. Which of the below is a best-practice when designing solutions on AWS?
+11. 🔴 Which of the below is a best-practice when designing solutions on AWS?
 	1. AWS의 Best Practice: 자동화, 탄력성, 비용 최적화, 빠른 실험 & 반복
     - A. Invest heavily in architecting your environment, as it is not easy to change your design later.
 	    - 클라우드의 유연성을 무시한 문장
@@ -371,11 +371,23 @@ layout: exam
     - C. Amazon SNS.
     - D. Amazon SQS.
 
-- Amazon ElasticReduce
+- Amazon Elastic MapReduce
 	- 빅데이터 처리 및 분석을 위한 완전관리형 클러스터 플랫폼
 	- 오픈소스 프레임워크를 간편하게 실행하고 자동으로 확장/축소할 수 있게 해줌
 	- 엄청난 양의 데이터를 빠르게 처리하고 분석하는 AWS의 빅데이터 처리 서비스
 	- Amazon S3와 연동하여 데이터를 저장하거나 가져옴
+- Amazon MQ
+	- 관리형 메시지 브로커 서비스
+	- 오픈소스 브로커인 Apache AcriveMQ 또는 RabbitMQ를 기반으로 하며, 기존 애플리케이션에서 메시지 기반 통신을 AWS로 쉽게 이전할 수 있도록 돕는다.
+	- 기능: 메시지 송수신 관리, 메시지 순서 및 내구성 보장
+	- 용도: 기존 시스템 간 통신, 마이크로서비스 간 decoupling
+	- AWS 이전할 때 변경 없이 사용 가능
+	- 메시지 순서 보장, 트랜잭션, Durable Subscription 같은 고급 기능 필요 시 유용
+	- SQS/SNS보다 복잡한 전통적인 메시지 브로커 기능이 필요한 경우
+	- SQS/SNS는 AWS 네이티브 서비스지만 MQ는 기존 메시지 브로커와 호환가능
+		-  ✅ **기존 ActiveMQ 시스템을 AWS로 옮길 때** → Amazon MQ
+		- ✅ **새로운 서버리스 기반 메시징** → SQS/SNS 권장
+	
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
     </details>
@@ -396,7 +408,7 @@ layout: exam
       Correct answer: C, E
     </details>
 
-30. What is the AWS service that provides you the highest level of control over the underlying virtual infrastructure?
+30. 🔴What is the AWS service that provides you the highest level of control over the underlying virtual infrastructure?
     - A. Amazon Redshift.
     - B. Amazon DynamoDB.
     - C. Amazon EC2.
@@ -450,7 +462,7 @@ layout: exam
     - E. Dedicated hosting.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, C
+      Correct answer: C, D
     </details>
 
 34. Which of the following aspects of security are managed by AWS? (Choose TWO)
@@ -556,6 +568,7 @@ layout: exam
     </details>
 
 39. Which of the following services will help businesses ensure compliance(준수) in AWS?
+	1.  **기업이 보안 및 규정 준수 요구 사항을 충족할 수 있도록 도와주는 핵심 서비스**
     - A. CloudFront.
     - B. CloudEndure Migration.
     - C. CloudWatch.
@@ -571,6 +584,8 @@ layout: exam
     - C. Pick the right Availability Zone for your S3 bucket.
     - D. Move all the data stored in S3 standard to EBS.
 
+- **A.** Use the Import/Export feature to move old files automatically to Amazon Glacier**
+	- Import/Export는 물리 디바이스로 데이터를 옮기는 기능이며, **자동으로 Glacier로 이동하는 기능은 아님**.
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
