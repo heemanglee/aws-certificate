@@ -24,7 +24,7 @@ layout: exam
       Correct answer: A
     </details>
 
-3. Which of the following describes the payment model that AWS makes available for customers that can commit to using Amazon EC2 over a one or 3-year term to reduce their total computing costs?
+3. Which of the following describes the payment model that AWS makes available for customers that can commit to using Amazon EC2 over a one or 3-year term to reduce their total computing costs? 🟡
     - A. Pay less as AWS grows.
     - B. Pay as you go.
     - C. Pay less by using more.
@@ -51,7 +51,7 @@ layout: exam
       Correct answer: A
     </details>
 
-5. What is the primary storage service used by Amazon RDS database instances?
+5. What is the primary storage service used by Amazon RDS database instances? 🟡
     - A. Amazon Glacier.
     - B. Amazon EBS.
     - C. Amazon EFS.
@@ -71,7 +71,7 @@ layout: exam
       Correct answer: B
     </details>
 
-7. Which of the following AWS services is designed with native Multi-AZ fault tolerance in mind? (Choose TWO)
+7. Which of the following AWS services is designed with native Multi-AZ fault tolerance in mind? (Choose TWO) 🟡
     - A. Amazon Redshift.
     - B. AWS Snowball.
     - C. Amazon Simple Storage Service.
@@ -88,13 +88,6 @@ layout: exam
     - C. Automatic patching.
     - D. Read Replicas.
     - E. Edge Locations.
-
-- Read Replicas
-	- 읽기 전용 복제본
-	- AWS RDS, Aurora, DynamoDB 등에서 제공하는 기능
-	- 기존 데이터베이스의 데이터를 비동기적으로 복제하여 읽기 작업 전용으로 사용하는 복제본
-	- 읽기 작업을 분산하여 원본 DB의 부하를 줄이기 위해 사용
-	- Ex) RDS, Aurora, DynamoDB
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B, D
@@ -126,28 +119,6 @@ layout: exam
     - C. SaaS.
     - D. PaaS.
 
-
-- Iaas(Infrastructure as a Service)
-	- 서버, 네트워크, 스토리지 제공
-	- Amazon EC2, EBS, VPC
-- PaaS(Platform as a Service)
-	- 개발 플랫폼/런타임 제공
-	- AWS Elastic Beanstalk, Heroku
-	- 📌AWS Elastic Beanstalk: 완전관리형 서비스
-		- 웹 애플리케이션을 자동으로 배포, 실행, 확장, 관리
-- SaaS(Software as a Service)
-	- 소프트웨어 완제품 제공
-	- Gmail, Dropbox, Salesforce
-- Paas VS IaaS
-	- IaaS
-		- 직접 서버 설정해야 함
-		- 하드웨어, 네트워크, 가상화, OS까지 제공
-		- 인프라를 빌려서 내가 직접 서버를 관리
-	- PaaS
-		- IaaS + OS + 런타임 + 플랫폼까지 제공
-		- 코드만 작성하면됨(배포는 자동)
-		- 설정 간단, 자동화 중심
-		- 코드만 올리면 자동으로 실행되게 플랫폼이 다 해주는 것
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
@@ -172,7 +143,7 @@ layout: exam
       Correct answer: D
     </details>
 
-14. Amazon Glacier is an Amazon S3 storage class that is suitable for storing [...] & [...]. (Choose TWO)
+14. Amazon Glacier is an Amazon S3 storage class that is suitable for storing [...] & [...]. (Choose TWO) 🟡
     - A. Active archives.
     - B. Dynamic websites’ assets.
     - C. Long-term analytic data.
@@ -199,10 +170,6 @@ layout: exam
     - C. Amazon Inspector.
     - D. AWS Network Access Control Lists.
 
--  Amazon Kinesis
-	- Kinesis: 운동
-	- 실시간 스트리밍 데이터 처리 서비스
-	- 실시간으로 발생하는 대규모 데이터를 수집, 처리, 분석할 수 있도록 도와줌
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
@@ -219,7 +186,7 @@ layout: exam
       Correct answer: D, E
     </details>
 
-18. ⭕️  A company needs to host a database in Amazon RDS for at least three years. Which of the following options would be the most cost-effective solution?
+18. A company needs to host a database in Amazon RDS for at least three years. Which of the following options would be the most cost-effective solution? 🟡
     - A. Reserved instances     - No Upfront.
     - B. Reserved instances     - Partial Upfront.
     - C. On-Demand instances.
@@ -229,18 +196,11 @@ layout: exam
       Correct answer: B
     </details>
 
-19.  🔴 Your application has recently experienced significant global growth, and international users are complaining of high latency. What is the AWS characteristic that can help improve your international users’ experience?
+19. Your application has recently experienced significant global growth, and international users are complaining of high latency. What is the AWS characteristic that can help improve your international users’ experience?  🟡
     - A. Elasticity.
     - B. Global reach.
     - C. Data durability.
     - D. High availability.
-
-- Global reach
-	- 글로벌 사용자에게 더 가까운 위치에서 서비스 제공이 가능
-- Data durablility
-	- 데이터가 손실되지 않고 안전하게 보관되는 특성
-- High avaliblity
-	- 장애 복원력이나 서비스 지속성 관련
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
@@ -374,7 +334,7 @@ layout: exam
       Correct answer: A, B
     </details>
 
-32. A customer spent a lot of time configuring a newly deployed Amazon EC2 instance. After the workload increases, the customer decides to provision another EC2 instance with an identical configuration. How can the customer achieve this?
+32. A customer spent a lot of time configuring a newly deployed Amazon EC2 instance. After the workload increases, the customer decides to provision another EC2 instance with an identical configuration. How can the customer achieve this? 🟡
     - A. By creating an AWS Config template from the old instance and launching a new instance from it.
     - B. By creating an EBS Snapshot of the old instance.
     - C. By installing Aurora on EC2 and launching a new instance from it.
@@ -394,7 +354,7 @@ layout: exam
       Correct answer: B
     </details>
 
-34. Which of the following statements describes the AWS Cloud’s agility?
+34. Which of the following statements describes the AWS Cloud’s agility? 🟡
     - A. AWS allows you to host your applications in multiple regions around the world.
     - B. AWS provides customizable hardware at the lowest possible cost.
     - C. AWS allows you to provision resources in minutes.
@@ -404,10 +364,10 @@ layout: exam
       Correct answer: C
     </details>
 
-35. What are the benefits of using the Amazon Relational Database Service? (Choose TWO)
-    - A. Lower administrative burden.
-    - B. Complete control over the underlying host.
-    - C. Resizable compute capacity.
+35. What are the benefits of using the Amazon Relational Database Service? (Choose TWO) 🟡
+    - A. Lower <mark style="background: #ADCCFFA6;">administrative</mark>(경영상의) <mark style="background: #ADCCFFA6;">burden</mark>(부담).
+    - B. Complete control over the <mark style="background: #ADCCFFA6;">underlying</mark>(근본적인) host.
+    - C. <mark style="background: #ADCCFFA6;">Resizable</mark>(재생 가능한) compute capacity.
     - D. Scales automatically to larger or smaller instance types.
     - E. Supports the document and key-value data structure.
 
@@ -466,7 +426,7 @@ layout: exam
       Correct answer: A
     </details>
 
-41. Which AWS service or feature can be used to call AWS Services from different programming languages?
+41. Which AWS service or feature can be used to call AWS Services from different programming languages? 🟡
     - A. AWS Software Development Kit.
     - B. AWS Command Line Interface.
     - C. AWS CodeDeploy.
@@ -486,7 +446,7 @@ layout: exam
       Correct answer: B
     </details>
 
-43. App development companies move their business to AWS to reduce time-to-market and improve customer satisfaction, what are the AWS automation tools that help them deploy their applications faster? (Choose TWO)
+43. App development companies move their business to AWS to reduce time-to-market and improve customer satisfaction, what are the AWS automation tools that help them deploy their applications faster? (Choose TWO) 🟡
     - A. AWS CloudFormation.
     - B. AWS Migration Hub.
     - C. AWS IAM.
@@ -517,12 +477,12 @@ layout: exam
       Correct answer: B
     </details>
 
-46. What is one benefit and one drawback of buying a reserved EC2 instance? (Select TWO)
+46. What is one benefit and one <mark style="background: #ADCCFFA6;">drawback</mark>(단점) of buying a reserved EC2 instance? (Select TWO) 🟡
     - A. Instances can be shut down by AWS at any time with no notification.
     - B. Reserved instances require at least a one-year pricing commitment.
     - C. There is no additional charge for using dedicated instances.
     - D. Reserved instances provide a significant discount compared to on-demand instances.
-    - E. Reserved instances are best suited for periodic workloads.
+    - E. Reserved instances are best suited for <mark style="background: #ADCCFFA6;">periodic</mark>(간헐적) workloads.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B, D
@@ -531,17 +491,17 @@ layout: exam
 47. Why does every AWS Region contain multiple Availability Zones?
     - A. Multiple Availability Zones allows you to build resilient and highly available architectures.
     - B. Multiple Availability Zones results in lower total cost compared to deploying in a single Availability Zone.
-    - C. Multiple Availability Zones allows for data replication and global reach.
+    - C. Multiple Availability Zones allows for data <mark style="background: #ADCCFFA6;">replication</mark>(응답) and global reach.
     - D. Multiple Availability Zones within a region increases the storage capacity available in that region.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
     </details>
 
-48. What is the most cost-effective purchasing option for running a set of EC2 instances that must always be available for a period of two months?
+48. What is the most cost-effective purchasing option for running a set of EC2 instances that must always be available for a period of **two months**?
     - A. On-Demand Instances.
     - B. Spot Instances.
-    - C. Reserved Instances     - All Upfront.
+    - C. Reserved Instances     - All <mark style="background: #ADCCFFA6;">Upfront</mark>(선불).
     - D. Reserved Instances     - No Upfront.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -558,10 +518,10 @@ layout: exam
       Correct answer: D
     </details>
 
-50. Data security is one of the top priorities of AWS. How does AWS deal with old storage devices that have reached the end of their useful life?
+50. Data security is one of the top priorities of AWS. How does AWS deal with old storage devices that have reached the end of their useful life? 🟡
     - A. AWS sells the old devices to other hosting providers.
     - B. AWS destroys the old devices in accordance with industry-standard practices.
-    - C. AWS sends the old devices for remanufacturing.
+    - C. AWS sends the old devices for <mark style="background: #ADCCFFA6;">remanufacturing</mark>(재생산).
     - D. AWS stores the old devices in a secure place.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
