@@ -7,6 +7,9 @@
 	- AWS에서 컨테이너를 쉽고 안정적으로 실행할 수 있게 해주는 서비스
 	- EC2 또는 Fargate 위에서 실행 가능
 
+
+
+<img src='../photo/Pasted image 20250602190418.png'/>
 - **Amazon EKS**
 	- Elastic Kubernetes Service
 	- 완전관리형 쿠버네티스 서비스
@@ -76,6 +79,14 @@
 		- AWS 리소스 전반
 		- 보안, 감시, 변경 이력 감사
 		- S3에 로그 저장
+	- AWS Directrory Service
+		- Microsoft Active Directory를 AWS 클라우드에서 쉽게 설정하고 관리할 수 있도록 도와주는 서비스
+		- 기업이 사용하는 사내 인증 및 사용자 관리 시스템을 AWS 인프라와 통합할 수 있게 해줌
+	- AWS Cost & Usage Report
+		- AWS에서 사용한 리소스별 비용과 사용량을 가장 상세하게 기록한 보고서
+		- 비용 분석, 청구 최적화, 재무 보고 등을 위한 정밀한 데이터 분석 도구
+	- AWS Cost Explorer
+		- AWS 서비스 사용량과 비용을 시각적으로 분석할 수 있도록 도와주는 대시보드 기반의 비용 분석 도구
 
 - ##### 컨설팅 서비스
 	-  **AWS Trusted Advisor**
@@ -153,6 +164,8 @@
 		- 데이터베이스만 마이그레이션
 	- **AWS Snow Family**
 		- 초대용량 데이터를 물리적으로 AWS로 이동
+	- **AWS Application Discovery Service**
+		- 온프레미스의 서버, 애플리케이션, 성능, 네트워크 의존성 등을 자동으로 수집하여 클라우드 <mark style="background: #FFF3A3A6;">마이그레이션을 계획할 때 필요한 정보를 분석하는 도구</mark>
 	
 
 - ##### 보안 관련 서비스
@@ -178,6 +191,9 @@
 	- **AWS CloudHSM**
 		- 하드웨어 보안 모듈(HSM)을 클라우드에서 제공하는 서비스
 		- 암호화 키를 하드웨어 수준에서 안전하게 생성/저장/사용할 수 있도록 해줌
+	- AWS ACM
+		- Certificate Manager
+		- SSL/TLS 인증서를 쉽게 발급, 관리, 갱신할 수 있도록 도와주는 AWS 서비스
 
 
 
@@ -271,3 +287,13 @@
 		- 애플리케이션 성능 분석, 병목 추적
 		- "요청이 왜 느리지", "어디서 오류 났지"
 		- X-Ray 콘솔에서 시각화
+
+---
+- ##### AWS Snowmobile
+	- 엑사바이트급 대용량 데이터를 물리적으로 AWS로 이전할 수 있게 해주는 초대형 데이터 전송 서비스
+	- 트럭 안에 데이터센터를 실어 고객 데이터센터에서 AWS로 직접 데이터를 옮기는 서비스
+- ##### Snowball
+	- 최대 용량: 80TB ~ 210TB
+	- 비교적 작음
+	- 중소 규모 데이터 이전 but, snowmobile은 초대형 데이터 이전
+	- 일반 기업도 사용가능하지만 snowmobile은 대기업/정부 등 특수 환경
