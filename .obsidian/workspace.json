@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "heejung/공식 연습 문제 세트/AWS 제공 - 1 ~ 10번 문제 풀이.md",
+                "file": "heejung/공식 연습 문제 세트/Dump 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS 제공 - 1 ~ 10번 문제 풀이"
+              "title": "Dump 1"
             }
           }
         ],
@@ -214,11 +214,14 @@
   },
   "active": "5c39d94c055a2981",
   "lastOpenFiles": [
+    "heejung/공식 연습 문제 세트/AWS 제공 - 11번 ~ 20번 문제 풀이.md",
     "AWS 강의 문제 정리.pdf",
-    "heejung/정리본/AWS 서비스 정리.md",
-    "Amazon SQS.md",
-    "Client VPN vs Direct Connect vs site-to-site VPN.md",
+    "AWS 제공 - 11번 ~ 20번 문제 풀이.pdf",
     "heejung/공식 연습 문제 세트/AWS 제공 - 1 ~ 10번 문제 풀이.md",
+    "AWS 제공 - 1 ~ 10번 문제 풀이.pdf",
+    "heejung/정리본/Client VPN vs Direct Connect vs site-to-site VPN.md",
+    "heejung/정리본/AWS 서비스 정리.md",
+    "heejung/정리본/Amazon SQS.md",
     "heejung/photo/Pasted image 20250308211611.png",
     "heejung/공식 연습 문제 세트/Dump 4.md",
     "heejung/정리본/용어 정리.md",
@@ -227,7 +230,6 @@
     "heejung/공식 연습 문제 세트/Dump 3.md",
     "heejung/공식 연습 문제 세트/Dump 1.md",
     "heejung/공식 연습 문제 세트/AWS 강의 문제 정리.md",
-    "heejung/공식 연습 문제 세트/AWS 제공 - 11번 ~ 20번 문제 풀이.md",
     "README.md",
     "heejung/정리본",
     "heejung/photo/Pasted image 20250601141212.png",
@@ -256,8 +258,6 @@
     "2_week/heemang",
     "heejung/module 5.md",
     "heejung/photo",
-    "heejung",
-    "2_week",
     "heejung/module2.md"
   ]
 }
