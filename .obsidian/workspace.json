@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "heejung/정리본/용어 정리.md",
+                "file": "heejung/정리본/AWS 서비스 정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "용어 정리"
+              "title": "AWS 서비스 정리"
             }
           },
           {
@@ -27,16 +27,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "heejung/정리본/Amazon SQS.md",
+                "file": "heejung/정리본/Client VPN vs Direct Connect vs site-to-site VPN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon SQS"
+              "title": "Client VPN vs Direct Connect vs site-to-site VPN"
+            }
+          },
+          {
+            "id": "382e9035b4b4d73d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "heejung/정리본/BYOL, Dedicated Host.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BYOL, Dedicated Host"
+            }
+          },
+          {
+            "id": "80f5d22d56a28dc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "heejung/정리본/S3 종류, Transfer Acceleration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "S3 종류, Transfer Acceleration"
+            }
+          },
+          {
+            "id": "ff1daf8bd09a6087",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "heejung/공식 연습 문제 세트/Dump 2 (해석본).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dump 2 (해석본)"
+            }
+          },
+          {
+            "id": "954be5d379e2c898",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "heejung/정리본/AWS 이전 시 비용 구조 변화.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AWS 이전 시 비용 구조 변화"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -184,19 +240,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5c39d94c055a2981",
+  "active": "6d2bdb7d41736f30",
   "lastOpenFiles": [
-    "Amazon SQS.md",
+    "heejung/정리본/AWS 클라우드로 이전 물리적 장치 기반 서비스.md",
+    "heejung/공식 연습 문제 세트/Dump 2 (해석본).md",
+    "heejung/공식 연습 문제 세트/Dump 2.md",
+    "README.md",
+    "heejung/정리본/AWS 이전 시 비용 구조 변화.md",
+    "heejung/photo/Pasted image 20250427163321.png",
+    "heejung/정리본/AWS 서비스 정리.md",
+    "heejung/정리본/용어 정리.md",
     "heejung/정리본/Client VPN vs Direct Connect vs site-to-site VPN.md",
+    "heejung/정리본/S3 종류, Transfer Acceleration.md",
     "heejung/정리본/Amazon SQS.md",
+    "heejung/정리본/BYOL, Dedicated Host.md",
+    "무제",
+    "Amazon SQS.md",
     "heejung/공식 연습 문제 세트/Dump 4.md",
     "heejung/photo/Pasted image 20250602190837.png",
     "heejung/photo/Pasted image 20250602190418.png",
     "Client VPN vs Direct Connect vs site-to-site VPN.md",
     "AWS 강의 문제 정리.pdf",
-    "heejung/정리본/AWS 서비스 정리.md",
-    "heejung/공식 연습 문제 세트/Dump 2.md",
-    "heejung/정리본/용어 정리.md",
     "heejung/강의/5. 스토리지와 데이터베이스.md",
     "heejung/공식 연습 문제 세트/Dump 1.md",
     "heejung/공식 연습 문제 세트/AWS 제공 - 11번 ~ 20번 문제 풀이.md",
@@ -204,7 +268,6 @@
     "heejung/photo/Pasted image 20250308211611.png",
     "heejung/공식 연습 문제 세트/Dump 3.md",
     "heejung/공식 연습 문제 세트/AWS 강의 문제 정리.md",
-    "README.md",
     "heejung/정리본",
     "heejung/photo/Pasted image 20250601141212.png",
     "practice-exam-1.pdf",
@@ -214,22 +277,15 @@
     "heejung/강의/6. 보안.md",
     "heejung/강의/10. 클라우드 여정.md",
     "heejung/공식 연습 문제 세트/11번 ~ 20번 문제 풀이",
-    "heejung/강의/2. 클라우드 컴퓨팅.md",
     "heejung/공식 연습 문제 세트",
     "heejung/강의",
-    "heejung/강의/8. 요금 및 지원.md",
-    "1_week/heejung/1주차 요약 💻.md",
     "heejung/photo/Pasted image 20250426144145.png",
-    "heejung/강의/3. 글로벌 인프라.md",
     "heejung/photo/Pasted image 20250427151514.png",
-    "heejung/photo/Pasted image 20250427163321.png",
     "heejung/photo/Pasted image 20250427161934.png",
     "heejung/photo/Pasted image 20250426153930.png",
     "heejung/photo/Pasted image 20250426153805.png",
-    "2_week/heemang/aws-cloud-infrastructure-basics.md",
     "2_week/heemang",
     "heejung/photo",
-    "heejung",
-    "2_week"
+    "heejung"
   ]
 }

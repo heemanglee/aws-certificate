@@ -90,6 +90,7 @@
 
 - ##### 컨설팅 서비스
 	-  **AWS Trusted Advisor**
+		- 환경 자동 점검해주는 서비스
 		- AWS <mark style="background: #FFB8EBA6;">리소스 상태를 진단하고 비용 절감/보안 개선</mark> 등을 추천하는 도우미 서비스
 		- AWS 리소스 헬스 체크 + 최적화 가이드
 	- **AWS Pricing  Calculator**
@@ -194,6 +195,9 @@
 	- AWS ACM
 		- Certificate Manager
 		- SSL/TLS 인증서를 쉽게 발급, 관리, 갱신할 수 있도록 도와주는 AWS 서비스
+	- **AWS WAF(Web Application Firewall)**
+		- 웹 애플리케이션을 보호하는 방화벽 서비스
+		- 웹 요청을 필터링하여 SQL Injection, XSS, 악성 봇 등을 차단
 
 
 
