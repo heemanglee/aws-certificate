@@ -57,6 +57,7 @@ layout: exam
     - C. Amazon EFS.
     - D. Amazon S3.
 
+- RDS는 내부적으로 EBS를 사용하여 데이터 저장
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
