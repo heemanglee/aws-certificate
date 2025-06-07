@@ -12,7 +12,7 @@ layout: exam
     - E. AWS Data Pipeline.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer:  B, D
+      Correct answer: A, B
     </details>
 
 2. Which of the following AWS services scale automatically without your intervention? (Choose TWO)
@@ -28,7 +28,7 @@ layout: exam
 
 3. A company is planning to migrate an application from Amazon EC2 to AWS Lambda to use a serverless architecture. Which of the following will be the responsibility of AWS after migration? (Choose TWO)
     - A. Application management.
-    - B. <mark style="background: #ADCCFFA6;">Capacity</mark>(용량) management.
+    - B. Capacity management.
     - C. Access control.
     - D. Operating system maintenance.
     - E. Data management.
@@ -38,10 +38,10 @@ layout: exam
     </details>
 
 4. How do ELBs improve the reliability of your application?
-    - A. By distributing traffic across multiple S3 buckets. 🟡
+    - A. By distributing traffic across multiple S3 buckets.
     - B. By replicating data to multiple availability zones.
     - C. By creating database Read Replicas.
-    - D. By <mark style="background: #ADCCFFA6;">ensuring</mark>(보장하다) that only healthy targets receive traffic.
+    - D. By ensuring that only healthy targets receive traffic.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
@@ -108,10 +108,10 @@ layout: exam
     </details>
 
 11. What are the benefits of using an AWS-managed service? (Choose TWO)
-    - A. Provides complete control over the virtual infrastructure. 🟡
+    - A. Provides complete control over the virtual infrastructure.
     - B. Allows customers to deliver new solutions faster.
     - C. Lowers operational complexity.
-    - D. <mark style="background: #ADCCFFA6;">Eliminates</mark>(제거하다) the need to encrypt data.
+    - D. Eliminates the need to encrypt data.
     - E. Allows developers to control all patching related activities.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -131,8 +131,8 @@ layout: exam
 
 13. What is the AWS’ recommendation regarding access keys?
     - A. Delete all access keys and use passwords instead.
-    - B. Only share them with trusted people. 🟡
-    - C. **Rotate them regularly.**
+    - B. Only share them with trusted people.
+    - C. Rotate them regularly.
     - D. Save them within your application code.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
@@ -151,7 +151,7 @@ layout: exam
 
 15. What is the benefit of using an API to access AWS Services?
     - A. It improves the performance of AWS resources.
-    - B. It reduces the time needed to <mark style="background: #ADCCFFA6;">provision</mark>(공급) AWS resources.
+    - B. It reduces the time needed to provision AWS resources.
     - C. It reduces the number of developers necessary.
     - D. It allows for programmatic management of AWS resources.
 
@@ -169,7 +169,7 @@ layout: exam
       Correct answer: C
     </details>
 
-17. How can AWS customers track and avoid over-spending on <mark style="background: #ADCCFFA6;">underutilized</mark>(활용도가 낮음) reserved instances?
+17. How can AWS customers track and avoid over-spending on underutilized reserved instances?
     - A. Customers can add all AWS accounts to an AWS Organization, enable Consolidated Billing, and turn off Reserved Instance sharing.
     - B. Customers can use Amazon Neptune to track and analyze their usage patterns, detect underutilized reserved instances, and then sell them on the Amazon EC2 Reserved Instance Marketplace.
     - C. Customers can use the AWS Budgets service to track the reserved instances usage and set up alert notifications when their utilization drops below the threshold that they define.
@@ -204,7 +204,7 @@ layout: exam
     - B. Logging access activity.
     - C. Patching the database software.
     - D. Operating system maintenance.
-    - E. Creating access policies. 🟡
+    - E. Creating access policies.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C, D
@@ -231,7 +231,7 @@ layout: exam
     </details>
 
 23. Which statement best describes the concept of an AWS region?
-    - A. An AWS Region is a geographical location with a collection of Edge locations. 🟡
+    - A. An AWS Region is a geographical location with a collection of Edge locations.
     - B. An AWS Region is a virtual network dedicated only to a single AWS customer.
     - C. An AWS Region is a geographical location with a collection of Availability Zones.
     - D. An AWS Region represents the country where the AWS infrastructure exist.
@@ -252,12 +252,10 @@ layout: exam
 
 25. Which of the following are factors in determining the appropriate database technology to use for a specific workload? (Choose TWO)
     - A. Availability Zones.
-    - B. Data <mark style="background: #ADCCFFA6;">sovereignty</mark>(주권).
+    - B. Data sovereignty.
     - C. The number of reads and writes per second.
     - D. The nature of the queries.
     - E. Software bugs.
-
-
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C, D
@@ -523,4 +521,3 @@ layout: exam
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
     </details>
-
