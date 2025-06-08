@@ -126,7 +126,7 @@ layout: exam
     - E. Processing data streams at any scale.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, D
+      Correct answer: A, C
     </details>
 
 13. What is the AWS’ recommendation regarding access keys?
